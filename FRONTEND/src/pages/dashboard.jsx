@@ -148,13 +148,13 @@ const Dashboard = () => {
                         <textarea
                             value={selfDescription}
                             onChange={(e) => setSelfDescription(e.target.value)}
-                            maxLength={500}
+                            maxLength={1000}
                             className='resize-none w-full h-[calc(100%-52px)] bg-transparent outline-none placeholder:text-gray-500 [&::-webkit-scrollbar]:hidden'
                             placeholder='Anything your resume does not capture...'
                         />
 
                         <p className='text-right text-xs text-gray-600'>
-                            {selfDescription.length} / 500
+                            {selfDescription.length} / 1000
                         </p>
 
                     </div>

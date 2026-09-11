@@ -1,6 +1,7 @@
 const express = require('express')
 const multer = require('multer')
 const { AiController } = require('../controllers/ai.controllers')
+const {verifyUser} = require('../middlewares/auth.middleware')
 
 const router = express.Router()
 
@@ -8,10 +9,6 @@ const upload = multer({
     storage: multer.memoryStorage()
 })
 
-router.post(
-    '/generate',
-    upload.single('resume'),
-    AiController.generateAnalysis
-)
+router.post('/generate',verifyUser, upload.single('resume'), AiController.generateAnalysis)
 
 module.exports = router
