@@ -4,7 +4,6 @@ async function generateResumePdf(html) {
 
     const browser = await puppeteer.launch({
         headless: true,
-        executablePath: await puppeteer.executablePath(),
         args: [
             '--no-sandbox',
             '--disable-setuid-sandbox'
