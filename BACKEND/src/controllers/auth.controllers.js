@@ -1,7 +1,7 @@
 const userModel = require('../models/user.schema');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const blackListedTokens_Model = require('../models/blacklist.schema')
+const { blackListedTokens_Model } = require('../models/blacklist.schema')
 
 async function registerUser (req,res) {
 
