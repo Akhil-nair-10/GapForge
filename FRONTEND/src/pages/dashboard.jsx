@@ -131,7 +131,7 @@ const Dashboard = () => {
                                     Upload your resume
                                 </p>
 
-                                <p className='text-xs text-gray-500 mt-1'>
+                                <p className='text-xs text-gray-500 mt-1 lg:pb-0 pb-3'>
                                     Click to browse • (PDF ONLY)
                                 </p>
                             </>
