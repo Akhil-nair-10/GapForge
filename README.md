@@ -6,6 +6,15 @@ A candidate provides a **Job Description** and either an existing **PDF resume**
 
 ---
 
+## Screenshots
+<img width="1535" height="862" alt="Screenshot 2026-10-24 190626" src="https://github.com/user-attachments/assets/d6ab01b2-7971-488a-8f48-cb35f79929a2" />
+
+<img width="1535" height="862" alt="Screenshot 2026-10-24 190923" src="https://github.com/user-attachments/assets/3658837f-e063-4c84-9b23-d816f8fbbf2f" />
+
+<img width="1535" height="862" alt="Screenshot 2026-10-24 190938" src="https://github.com/user-attachments/assets/02e56b03-8a69-4ce9-9249-e1f8ba938ad3" />
+
+---
+
 ## What GapForge Does
 
 GapForge turns a job description into a personalized preparation plan.
